@@ -131,5 +131,6 @@ except:
 	print("API could not be reached for accessing districts. Accessing cached value")
 	districts = MP_DISTRICTS
 
-district_id = getDistrictByID(districts, findDistrict=myDistrict)
-print(district_id)
+districtID = getDistrictByID(districts, findDistrict=myDistrict)
+print("State ID of "+myState+": "+str(stateID))
+print("District ID of "+myDistrict+": "+str(districtID))
